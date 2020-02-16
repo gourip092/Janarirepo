@@ -1,9 +1,4 @@
-FROM nginx
+FROM ubuntu:latest
 
-RUN rm /etc/nginx/conf.d/default.conf
-
-RUN rm /etc/nginx/conf.d/examplessl.conf
-
-COPY content /usr/share/nginx/html
-
-COPY conf /etc/nginx
+RUN apt-get update -y
+RUN apt-get install git -y
