@@ -1,14 +1,14 @@
 pipeline{
-    agent{
+    agent {
         dockerfile true
     }
     stages {
-        stage ('example'){
+        stage ('example') {
             steps{
                 echo 'helloworld'
             }
             
-            } 'echo wrokikkd'
+            }
         }
         
     }
