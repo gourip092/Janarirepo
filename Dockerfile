@@ -1,4 +1,4 @@
-FROM ubuntu:0.0.9
+FROM ubuntu:latest
 
 RUN apt-get update -y
 RUN apt-get install git -y
