@@ -1,5 +1,9 @@
-FROM ubuntu:latest
+  
+FROM tomcat:8.0.20-jre8
+# Dummy text to test 
+COPY target/IKnow.war /usr/local/tomcat/webapps/IKnow.war
 
-RUN apt-get update -y
-RUN apt-get install git -y
-RUN apt-get install apache2 -y
+#FROM ubuntu:latest
+#RUN apt-get update -y
+#RUN apt-get install git -y
+#RUN apt-get install apache2 -y
