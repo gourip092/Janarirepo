@@ -30,6 +30,11 @@
 
   <build>
     <finalName>IKnow</finalName>
+    <snapshotRepository>
+  <id>deployment</id>
+  <name>Internal Snapshot Release</name>
+  <url>http://13.232.252.5:8081/repository/Sample-Snapshot/</url>
+ </snapshotRepository>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
         <plugin>
