@@ -6,7 +6,7 @@
 
   <groupId>Dontknow</groupId>
   <artifactId>IKnow</artifactId>
-  <version>1</version>
+  <version>1.0-SNAPSHO</version>
   <packaging>war</packaging>
 
   <name>IKnow Maven Webapp</name>
